@@ -4,6 +4,18 @@ Turn a shelf of books into a Claude agent that makes decisions the way those boo
 
 Most AI advice is generic because it isn't anchored to anything. This repo anchors it: pick the books that define how a job should be done, summarize each one into its core values and principles, then compile those summaries into an agent that cites them every time it recommends something.
 
+## Why I built this
+
+I didn't like how default chatbots and agents handled tasks. Ask one how to coach a struggling sales rep and you get a tidy list of reasonable-sounding tips with no point of view: nothing you can trace back, push back on, or trust to be consistent from one week to the next.
+
+So I trained them to learn from great material instead. Every agent here is grounded in books written by people who have actually done the job. It makes decisions and recommendations from those books' core values and principles, and it names the source behind each one. When the advice is wrong, I can see which principle it came from and fix the library rather than argue with the model.
+
+## About me
+
+I'm Patrick Lowe, based in Riverside, CA. I've spent 10+ years in customer-facing sales, finance, and account roles, and I build AI agents hands-on with Claude. This repo is how I put the playbooks I've learned from into tools I use every day.
+
+[LinkedIn](https://www.linkedin.com/in/patrickalowe) · [GitHub](https://github.com/patrickalowe)
+
 ## How it works
 
 ```
